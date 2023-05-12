@@ -9,7 +9,7 @@ const Home = () => {
             autoplay
             loop
             src="https://assets1.lottiefiles.com/packages/lf20_8lcyef9f.json"
-            style={{ alignItem:'center',width: "75%" }}
+            style={{ alignItem:'center',width: "95%" }}
           >
             <Controls
               visible={false}
