@@ -4,13 +4,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* background-color: #ced7cb; */
+
 }
 .container{
     width:75%;
     height: 100%;
-    /* background-color:red */
-    ;
+    /* background-color:red; */
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.bridgeContainer{
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #ced7cb;
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+.bridge{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.dropDown{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+p{
+    display: flex;
+    align-items: center;
+}
+.connect{
+    border:none;
+    width:100%;
+    background-color:#70d692;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }

@@ -6,7 +6,7 @@ body{
     background-color: #f6f6f6;
     font-family: 'Nunito Sans', sans-serif;
     color :rgb(16, 16, 16);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 a{
     color: inherit;
