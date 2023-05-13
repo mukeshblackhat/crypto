@@ -3,7 +3,7 @@ import styles from "../styles/dropdown.module.css";
 import {BsFillCaretDownFill} from 'react-icons/bs';
 const Dropdown=({label,options})=>{
     const [selected,setSelected]=useState("Bitcoin");
-    const [display,setDisplay]=useState(true);
+    const [display,setDisplay]=useState(false);
     const onSelection=(e)=>{
         setSelected(e.target.textContent);
         setDisplay(!display);
