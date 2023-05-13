@@ -1,9 +1,11 @@
 import styles from "../styles/bridge.module.css";
+import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import {FiAlertCircle} from 'react-icons/fi';
 import Dropdown from "./dropdown";
 
 const Bridge = () => {
+  const [options, setOptions]=useState(['one','two','three']);
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
@@ -12,11 +14,11 @@ const Bridge = () => {
           <p>Select tokens to send through the portal </p>
           <div className={styles.bridge}>
             <div className={styles.dropDown}>
-              <Dropdown label="From" />
+              <Dropdown label="From" options={options} />
             </div>
             <AiOutlineDoubleRight className={styles.convertIcon} size="1.5em" />
             <div className={styles.dropDown}>
-              <Dropdown label="To" />
+              <Dropdown label="To" options={options}/>
             </div>
           </div>
           <br/>
