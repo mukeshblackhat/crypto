@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className={styles.heroDiscription}>
             <p className={styles.note}>0% trading commission</p>
-            <p className={styles.heading}>Join the besta Cryptocurrency exchange </p>
+            <p className={styles.heading}>Join the best Cryptocurrency exchange </p>
             <p className={styles.subheading}>Trade with over 740 diffenrent Cryptocurrency and fiat currency pairs , including bitcoin , Ethereum and BNB pairs . </p>
             <button className={styles.tradingBtn}>START TRADING</button>
         </div>

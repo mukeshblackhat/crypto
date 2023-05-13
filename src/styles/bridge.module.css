@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* overflow-x: hidden; */
 }
 .bridgeContainer{
     width: 100%;
@@ -67,4 +68,23 @@ p{
     border-radius: 15px;
     font-size: 1.5rem;
     font-weight: 600;
+}
+@media screen and (max-width:600px) {
+    .wrapper{
+        height: auto;
+        padding-top: 30px;
+    }
+    .container{
+        width: 85%;
+    }
+    .bridge{
+        flex-direction: column;
+    }
+    .dropDown{
+        width: 100%;
+    }
+    .convertIcon{
+        transform: rotate(90deg);
+        margin: 10px;
+    }
 }

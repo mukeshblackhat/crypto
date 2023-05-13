@@ -5,7 +5,7 @@
     justify-content: center;
     padding:1rem;
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .container{
     width: 75%;
@@ -34,6 +34,17 @@
 
 }
 .menu{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 85%;
+    }
+  .routes{
+      display: none;
+  }   
+  .menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,4 +52,6 @@
     /* background-color:green; */
     margin-left: 20px;
     cursor: pointer;
+} 
 }
+    

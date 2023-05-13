@@ -14,7 +14,7 @@ const Bridge = () => {
             <div className={styles.dropDown}>
               <Dropdown label="From" />
             </div>
-            <AiOutlineDoubleRight size="1.5em" />
+            <AiOutlineDoubleRight className={styles.convertIcon} size="1.5em" />
             <div className={styles.dropDown}>
               <Dropdown label="To" />
             </div>
