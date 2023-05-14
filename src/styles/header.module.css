@@ -43,17 +43,20 @@
 }
 .connectBtn{
     height: 100%;
-    border: 2px solid #14e95b;
+    /* border: 2px solid #14e95b; */
+    border: none;
     background-color: #70d692;
-    /* color: #70d692; */
     color: black;
     border-radius: 25px;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding : 2px 20px;
+    padding : 5px 20px !important;
     margin: 0px 10px;
+}
+.logo img{
+    height: 45px;
 }
 
 @media screen and (max-width: 600px) {
