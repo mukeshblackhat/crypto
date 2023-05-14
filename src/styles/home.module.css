@@ -89,6 +89,18 @@
     font-size: 1.5rem;
     color: rgb(30, 30, 30);
 }
+.discription{
+   margin: 40px 0px;
+   font-size: 1rem;
+   font-weight: bold;
+}
+.docs{
+    border:1px solid grey;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 0.6rem; 
+    margin: 0px 10px;
+}
 @media screen and (max-width: 600px) {
     .container{
         width: 100%;
@@ -119,6 +131,18 @@
         margin: 30px 0px;
     
         /* align-items: center; */
+    }
+    .discription{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+     }
+     .docs{
+        border:1px solid grey;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 0.8rem; 
+        margin: 5px 0px;
     }
 }
     

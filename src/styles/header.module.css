@@ -1,29 +1,33 @@
-.wrapper{
-    width:100vw;
-    background-color:#ced7cb;
+.wrapper {
+    width: 100vw;
+    background-color: #ced7cb;
     display: flex;
     justify-content: center;
-    padding:1rem;
+    padding: 1rem;
     box-sizing: border-box;
     /* overflow: hidden; */
 }
-.container{
+
+.container {
     width: 75%;
     /* background-color:salmon; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.links{
+
+.links {
     display: flex;
 }
-.routes{
+
+.routes {
     display: flex;
     /* background-color: yellow */
     ;
 }
-.routes a{
-    margin:0px 10px;
+
+.routes a {
+    margin: 0px 10px;
     width: fit-content;
     /* background-color: red; */
     align-items: center;
@@ -33,7 +37,8 @@
 
 
 }
-.menu{
+
+.menu {
     /* display: none; */
     display: flex;
     justify-content: center;
@@ -41,7 +46,8 @@
     /* background-color:red; */
 
 }
-.connectBtn{
+
+.connectBtn {
     height: 100%;
     /* border: 2px solid #14e95b; */
     border: none;
@@ -52,28 +58,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding : 5px 20px !important;
+    padding: 5px 20px !important;
     margin: 0px 10px;
 }
-.logo img{
+
+.logo img {
     height: 45px;
 }
 
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         width: 85%;
     }
-  .routes{
-      display: none;
-  }   
-  .menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    /* background-color:green; */
-    margin-left: 20px;
-    cursor: pointer;
-} 
+
+    .routes {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* background-color:green; */
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .connectBtn{
+        height: auto;
+        padding :10px 30px !important;
+    }
+
 }
-    

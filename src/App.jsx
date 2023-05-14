@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Header,Home,Bridge} from "./components"
+import {Header,Home,Bridge, Footer} from "./components"
 import './App.css'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Header/> 
       <Home/>
       <Bridge/>
+      <Footer/>
     </div>
   )
 }

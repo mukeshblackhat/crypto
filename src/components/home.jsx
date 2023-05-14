@@ -49,6 +49,7 @@ const Home = () => {
               token holders of ordBridge{" "}
             </p>{" "}
           </div>
+          <p className={styles.discription}>OrdBridge supporats bridging of any BRC20 token from native BTC chain to Etherium chain & vice versa. <span className={styles.docs}>Read Docs ...</span></p>
         </div>
       </div>
     </div>
