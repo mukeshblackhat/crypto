@@ -14,7 +14,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* background-color:green */
+    ;
 }
 .heroImage{
     width: 50%;
@@ -69,6 +71,7 @@
     align-items:flex-start;
     margin: 50px;
     flex-wrap: wrap;
+    box-sizing: border-box;
 
 
 }
@@ -78,6 +81,7 @@
     flex-direction: column;
     justify-content: center;
     min-width:300px;
+    /* background-color: yellow; */
     /* align-items: center; */
 }
 .topic{
@@ -88,7 +92,7 @@
 @media screen and (max-width: 600px) {
     .container{
         width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .heroImage{
         width: 100%;
