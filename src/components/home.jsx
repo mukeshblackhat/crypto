@@ -19,9 +19,9 @@ const Home = () => {
         </div>
         <div className={styles.heroDiscription}>
             <p className={styles.note}>0% trading commission</p>
-            <p className={styles.heading}>Join the best Cryptocurrency exchange </p>
-            <p className={styles.subheading}>Trade with over 740 diffenrent Cryptocurrency and fiat currency pairs , including bitcoin , Ethereum and BNB pairs . </p>
-            <button className={styles.tradingBtn}>START TRADING</button>
+            <p className={styles.heading}>The Bridge We Need </p>
+            <p className={styles.subheading}>OrdBridge is a Cross-chain two-way bridge between Bitcoin & Etherium Network </p>
+            <button className={styles.tradingBtn}>Read Docs</button>
         </div>
       </div>
     </div>
