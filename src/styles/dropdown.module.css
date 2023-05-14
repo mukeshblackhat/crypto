@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    position:relative;
 }
 .dropdown{
     border: 2px solid #70d692;
@@ -16,4 +17,16 @@
 .label{
     margin-bottom: 5px;
     margin-left: 10px;
+}
+.optionCard{
+    position:absolute;
+    /* border: 2px solid #70d692; */
+    border-radius:10px;
+    text-align: center;
+    width: 100%;
+    top:100%;
+    background-color: #70d692;
+    font-size: 1.5rem;
+    z-index: 2;
+
 }
